@@ -42,7 +42,7 @@ function App() {
     const exist = cartItems.find((x) => x.id === product.id);
     if (exist) {
       setCartItems(cartItems.filter((x) => x.id !== product.id));
-
+      setCount(count - 1)
     }
   };
   return (

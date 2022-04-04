@@ -1,14 +1,18 @@
 .table-left {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  background: #2d2d9a;
-  border-radius: 20px;
+  background: #81e0e3;
+  /* border-radius: 20px; */
   color: #fff;
   /* padding-left: 10px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: center;
+  margin-left: 10px;
 }
 .table-left p {
   font-size: 15px;
+  font-weight: 600;
 }
 .table-data-left {
   display: grid;
@@ -29,7 +33,7 @@
 .left-container {
   margin: 0;
   padding: 0;
-  height: 70vh;
+  height: 80vh;
 
   position: relative;
 }
@@ -41,21 +45,18 @@
 }
 .item-design {
   background: ghostwhite;
-  margin-left: 10px;
-  margin-right: 10px;
+
   padding: 5px;
 }
 .order-design {
   background: beige;
-  margin-left: 10px;
-  margin-right: 10px;
+
   padding: 5px;
 }
 .total-pay {
   background: #00141a;
   color: #fff;
-  margin-left: 10px;
-  margin-right: 10px;
+
   padding: 5px;
 }
 .item-value-align {
@@ -78,8 +79,6 @@
 .footer-final {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 .footer-suspend {
   background-color: #b38600;

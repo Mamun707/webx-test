@@ -4,10 +4,10 @@ import "./index.css"
 function Product(props) {
     const { product, onAdd } = props;
     return (
-        <div onClick={() => onAdd(product)}  >
-            <img className="small" src={product.image} alt={product.name} />
-            <h3>{product.name}</h3>
-            <div>${product.price}</div>
+        <div onClick={() => onAdd(product)} className="product-box">
+            <img src={product.image} alt={product.name} />
+            <p>{product.name}</p>
+            {/* <div>${product.price}</div> */}
 
         </div>
     );
